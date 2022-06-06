@@ -1,0 +1,113 @@
+/* Limpar config padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #b9b7b76b;
+}
+h2 {
+    color: green
+}
+
+/****************** IDS ************************/
+#navegação {
+    background: #f3f3f3;
+    border-bottom: 1px solid #d8d8d8;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+
+}
+
+#logo {
+    padding: 5px;
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+#area-principal {
+
+    width: 720px;
+    margin: 55px auto 10px auto;
+
+}
+
+#postagem {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+/********************** CLASSES ***********************************/
+.data-post {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.verde {
+    color: green;
+}
+
+.img-postagem {
+    width: 180px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+}
+
+.format-texto {
+    font-size: 15px;
+    text-align: justify;
+}
+.postado {
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+/********************  Formatação do menu (links) *************************/
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Links não visitados */
+a:link {
+    color: rgb(126, 123, 123);
+}
+
+/* Links visitados */
+a:visited {
+    color: rgb(98, 155, 13);
+}
+
+/* Links hover */
+a:hover {
+    background: rgb(158, 207, 24);
+    color: green
+}
+
+/* Links ativos */
+a:active {
+    color: rgb(36, 16, 151);
+}
